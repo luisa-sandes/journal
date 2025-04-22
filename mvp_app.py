@@ -26,7 +26,7 @@ try:
     # Attempt to read the key from secrets/environment variables
     # IMPORTANT: You must set this secret named ANTHROPIC_API_KEY either in
     # Streamlit Cloud's settings OR as a local environment variable.
-    ANTHROPIC_API_KEY = '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'
+    ANTHROPIC_API_KEY = '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'
 
     if ANTHROPIC_API_KEY:
         # If key was found, initialize the Anthropic client object
